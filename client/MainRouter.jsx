@@ -1,3 +1,9 @@
+/* File: MainRouter.jsx
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'

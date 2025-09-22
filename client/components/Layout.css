@@ -1,0 +1,40 @@
+/* Layout.css
+   Styles for Layout component
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
+.layout-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0; /* Remove bottom margin to bring nav closer */
+}
+
+.layout-logo {
+  height: 60px;
+}
+
+.layout-title {
+  margin: 0;
+}
+
+.layout-nav {
+  margin-top: -10px; /* Move nav up to align with header */
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.layout-nav a {
+  color: #4f46e5;
+  text-decoration: none;
+  margin: 0 4px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.layout-nav a:hover {
+  color: #3730a3;
+}

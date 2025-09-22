@@ -1,3 +1,9 @@
+/* File: App.jsx
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 //import { ThemeProvider } from '@material-ui/styles';
