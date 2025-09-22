@@ -5,7 +5,7 @@
 */
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../src/assets/images/logo.jpg';
 import './Layout.css';
 
@@ -17,7 +17,11 @@ export default function Layout() {
                 <h1 className="layout-title">My Portfolio</h1>
             </div>
             <nav className="layout-nav">
-                <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/projects">Projects</Link> | <Link to="/services">Services</Link> | <Link to="/contact">Contact</Link>
+                <NavLink to="/" end>Home</NavLink> |
+                <NavLink to="/about">About</NavLink> |
+                <NavLink to="/projects">Projects</NavLink> |
+                <NavLink to="/services">Services</NavLink> |
+                <NavLink to="/contact">Contact</NavLink>
             </nav>
             <hr />
         </>
