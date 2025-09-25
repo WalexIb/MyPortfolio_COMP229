@@ -14,7 +14,7 @@ export default function Layout() {
         <>
             <div className="layout-header">
                 <img src={logo} alt="Logo" className="layout-logo" />
-                <h1 className="layout-title">My Portfolio</h1>
+                <h1 className="layout-title">Adewale Ibrahim</h1>
             </div>
             <nav className="layout-nav">
                 <NavLink to="/" end>Home</NavLink> |
