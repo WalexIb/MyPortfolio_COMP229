@@ -13,8 +13,9 @@ import resumeFile from './assets/resume.pdf'; // Import the resume file
 export default function About() {
     return (
         <div className="main-container">
-            <h1>Adewale Ibrahim</h1>
+            <h1>About Me</h1>
             <img src={profileImage} alt="Adewale Ibrahim" className="profile-image" />
+            <h2>Adewale Ibrahim</h2>
 
             <p>
                 I am a motivated student currently studying <strong>Software Engineering Technology – AI</strong>.
